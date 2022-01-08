@@ -23,7 +23,7 @@ let computerPlayer = () => {
 
         let humanPlayer = () => {
             
-            hPlayerOutput = prompt(("Choose rock, paper, or scissors")).toLowerCase(); //prompt human player to enter a selection between "rock, paper, and scissors"
+            hPlayerOutput = prompt(("Choose rock, paper, or scissors:")).toLowerCase(); //prompt human player to enter a selection between "rock, paper, and scissors"
 
             outputSelection = "You chose: ";
             console.log(outputSelection); //display "You chose: "
